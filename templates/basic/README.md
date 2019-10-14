@@ -1,25 +1,41 @@
-# mdx-deck basic template
+# Universal
 
-This was generated with [mdx-deck][]'s `npm init deck` command.
+The default starter theme for Unibit. [Live Demo](https://themes.stackbit.com/demos/universal)
 
-## Development
+[![Create with Stackbit](https://assets.stackbit.com/badge/create-with-stackbit.svg)](https://app.stackbit.com/create?theme=https://github.com/stackbithq/stackbit-theme-universal)
 
-To run the presentation deck in development mode:
+### Turn themes into CMS-powered websites
 
-```sh
-npm start
+[Stackbit](https://www.stackbit.com/) provisions your theme's content model with a growing selection of headless CMS and pulls the content for you in the format your static site generator expects it. This is powered by a single config file, [stackbit.yaml](https://docs.stackbit.com/uniform/stackbit-yaml/), which defines a [Uniform theme model](https://docs.stackbit.com/uniform/) and enables integration with CMS like Contentful, DatoCMS, Forestry, NetlifyCMS, etc.
+
+### One theme codebase converts to multiple Static Site Generators
+
+This theme in particular is written in [Unibit](https://docs.stackbit.com/unibit/), a superset of static site generators. Unibit's powerful transpiling engine enables you to write once and stay SSG agnostic. Themes will automatically work with new generators as they are added and can currently convert to Jekyll, Hugo & Gatsby.
+
+## Quickstart
+
+### Unibit CLI
+
+Develop locally using the Unibit CLI.
+
+```
+npm install -g @stackbit/unibit
 ```
 
-Edit the [`deck.mdx`](deck.mdx) file to get started.
+Start the local development server.
 
-## Exporting
-
-To build the presentation deck as static HTML:
-
-```sh
-npm run build
+```
+unibit develop
 ```
 
-For more documentation see the [mdx-deck][] repo.
+Compile a production build into the `public` folder.
 
-[mdx-deck]: https://github.com/jxnblk/mdx-deck
+```
+unibit build
+```
+
+### CodeSandbox
+
+Develop this theme in the browser using CodeSandbox.
+
+[Fork in CodeSandbox](https://codesandbox.io/s/github/stackbithq/stackbit-theme-universal)
